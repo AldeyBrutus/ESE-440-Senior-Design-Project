@@ -648,7 +648,7 @@
         "uuid": "02e8e4b0-2d68-453f-9f10-22ddb8bef6dd"
       }
     ],
-    "used_designators": "R1-2,D1",
+    "used_designators": "C12,R2,L5",
     "variants": []
   },
   "sheets": [
@@ -666,7 +666,11 @@
     ],
     [
       "bd01ca86-a8a0-4a35-8219-79c93636756b",
-      "Capacitive Touch circuitry"
+      "Capacitive Touch Circuitry"
+    ],
+    [
+      "945ab4df-ba2d-4853-b77c-e290543757c6",
+      "Voltage Sense Circuitry"
     ]
   ],
   "text_variables": {},

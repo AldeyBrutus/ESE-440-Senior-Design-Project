@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 41.91 85.09)
-		(size 31.75 31.75)
+		(at 58.42 69.85)
+		(size 35.56 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "4d08ea0f-c419-42f4-9248-aebc8c20c71a")
 		(property "Sheetname" "Power Circuitry"
-			(at 41.91 84.3784 0)
+			(at 58.42 69.1384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_circuit.kicad_sch"
-			(at 41.91 117.4246 0)
+			(at 58.42 105.9946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,7 +52,53 @@
 		)
 	)
 	(sheet
-		(at 118.11 83.82)
+		(at 120.65 127)
+		(size 40.64 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "945ab4df-ba2d-4853-b77c-e290543757c6")
+		(property "Sheetname" "Voltage Sense Circuitry"
+			(at 120.65 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "V_sense_circuit.kicad_sch"
+			(at 120.65 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_circuit"
+				(path "/02e8e4b0-2d68-453f-9f10-22ddb8bef6dd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 69.85)
 		(size 41.91 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +114,7 @@
 		)
 		(uuid "ab5c4300-8f4d-4197-8fda-cee517bb28d0")
 		(property "Sheetname" "IC Circuitry"
-			(at 118.11 83.1084 0)
+			(at 119.38 69.1384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "IC_circuit.kicad_sch"
-			(at 118.11 121.2346 0)
+			(at 119.38 107.2646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,8 +144,8 @@
 		)
 	)
 	(sheet
-		(at 200.66 96.52)
-		(size 22.86 20.32)
+		(at 189.23 71.12)
+		(size 35.56 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -113,8 +159,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "bd01ca86-a8a0-4a35-8219-79c93636756b")
-		(property "Sheetname" "Capacitive Touch circuitry"
-			(at 200.66 95.8084 0)
+		(property "Sheetname" "Capacitive Touch Circuitry"
+			(at 189.23 70.4084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +171,7 @@
 			)
 		)
 		(property "Sheetfile" "Cap_touch_circuit.kicad_sch"
-			(at 200.66 117.4246 0)
+			(at 189.23 107.2646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
