@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NRF54L10-QFAA-R
+D RF System on a Chip - SoC Ultra-low-power wireless SoC for Bluetooth LE, Bluetooth Channel Sounding, Bluetooth Mesh, Zigbee, Thread, Matter, Amazon Sidewalk, and proprietary 2.4 GHz protocols
+K
+F 
+$ENDCMP
+#
+#End Doc Library
