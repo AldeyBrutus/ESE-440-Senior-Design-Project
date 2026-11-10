@@ -5,8 +5,150 @@
 	(uuid "02e8e4b0-2d68-453f-9f10-22ddb8bef6dd")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 102.87 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39925d72-6b47-4c20-bc4a-5880a5cecb03")
+	)
+	(junction
+		(at 49.53 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2c9f498-17ec-4541-8b00-98b1e1b51c03")
+	)
+	(wire
+		(pts
+			(xy 102.87 85.09) (xy 102.87 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c9c4b3-da29-44a4-93d7-ae991d321c05")
+	)
+	(wire
+		(pts
+			(xy 90.17 85.09) (xy 102.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041ac881-24ee-49d1-80bd-05aa850f49d9")
+	)
+	(wire
+		(pts
+			(xy 36.83 85.09) (xy 49.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1359f0b0-bd98-46ae-b9e7-50054098c346")
+	)
+	(wire
+		(pts
+			(xy 49.53 85.09) (xy 54.61 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152675bb-d5b8-4d85-bfa7-007e76849d82")
+	)
+	(wire
+		(pts
+			(xy 119.38 135.89) (xy 102.87 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67313b03-949c-447e-8629-c94b3371a783")
+	)
+	(wire
+		(pts
+			(xy 161.29 86.36) (xy 172.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68893f40-1184-40ed-a17c-43a3f26a002d")
+	)
+	(wire
+		(pts
+			(xy 119.38 144.78) (xy 49.53 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74df7825-83f3-4a18-a26b-9889b9426176")
+	)
+	(wire
+		(pts
+			(xy 102.87 30.48) (xy 119.38 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767528ad-a61e-45f9-937a-4859cd6a4f2f")
+	)
+	(wire
+		(pts
+			(xy 172.72 30.48) (xy 172.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f637043-fbd0-4f27-bec7-8272b5cdada1")
+	)
+	(wire
+		(pts
+			(xy 49.53 144.78) (xy 49.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82849fdc-a1a4-4931-bfde-83ab4ab71f27")
+	)
+	(wire
+		(pts
+			(xy 102.87 135.89) (xy 102.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04aecaa-4e00-42ac-af59-6c52e16eed11")
+	)
+	(wire
+		(pts
+			(xy 161.29 30.48) (xy 172.72 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed14f65a-d9d4-4427-a680-34dcd87e255d")
+	)
+	(wire
+		(pts
+			(xy 102.87 85.09) (xy 119.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9007da0-ac43-42d0-b205-9bc234fce21b")
+	)
 	(sheet
-		(at 58.42 69.85)
+		(at 54.61 69.85)
 		(size 35.56 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +164,7 @@
 		)
 		(uuid "4d08ea0f-c419-42f4-9248-aebc8c20c71a")
 		(property "Sheetname" "Power Circuitry"
-			(at 58.42 69.1384 0)
+			(at 54.61 69.1384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +175,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_circuit.kicad_sch"
-			(at 58.42 105.9946 0)
+			(at 54.61 105.9946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,7 +194,7 @@
 		)
 	)
 	(sheet
-		(at 120.65 127)
+		(at 119.38 124.46)
 		(size 40.64 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +210,7 @@
 		)
 		(uuid "945ab4df-ba2d-4853-b77c-e290543757c6")
 		(property "Sheetname" "Voltage Sense Circuitry"
-			(at 120.65 126.2884 0)
+			(at 119.38 123.7484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +221,7 @@
 			)
 		)
 		(property "Sheetfile" "V_sense_circuit.kicad_sch"
-			(at 120.65 160.6046 0)
+			(at 119.38 158.0646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,7 +240,7 @@
 		)
 	)
 	(sheet
-		(at 119.38 69.85)
+		(at 119.38 68.58)
 		(size 41.91 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +256,7 @@
 		)
 		(uuid "ab5c4300-8f4d-4197-8fda-cee517bb28d0")
 		(property "Sheetname" "IC Circuitry"
-			(at 119.38 69.1384 0)
+			(at 119.38 67.8684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +267,7 @@
 			)
 		)
 		(property "Sheetfile" "IC_circuit.kicad_sch"
-			(at 119.38 107.2646 0)
+			(at 119.38 105.9946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -144,8 +286,8 @@
 		)
 	)
 	(sheet
-		(at 189.23 71.12)
-		(size 35.56 35.56)
+		(at 119.38 20.32)
+		(size 41.91 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -160,7 +302,7 @@
 		)
 		(uuid "bd01ca86-a8a0-4a35-8219-79c93636756b")
 		(property "Sheetname" "Capacitive Touch Circuitry"
-			(at 189.23 70.4084 0)
+			(at 119.38 19.6084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +313,7 @@
 			)
 		)
 		(property "Sheetfile" "Cap_touch_circuit.kicad_sch"
-			(at 189.23 107.2646 0)
+			(at 119.38 57.7346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
