@@ -159,7 +159,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "bd01ca86-a8a0-4a35-8219-79c93636756b")
-		(property "Sheetname" "Capacitive Touch Circuitry"
+		(property "Sheetname" "Capacitive Touch and Display"
 			(at 189.23 70.4084 0)
 			(show_name no)
 			(do_not_autoplace no)
