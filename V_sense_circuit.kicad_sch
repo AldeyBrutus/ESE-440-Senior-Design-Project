@@ -1377,6 +1377,12 @@
 		(uuid "3e793396-3ceb-469a-8e62-33d82d1411e2")
 	)
 	(junction
+		(at 181.61 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48c203c6-f0f7-4278-a5b6-7d56876f1e7c")
+	)
+	(junction
 		(at 137.16 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1441,6 +1447,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e706a3a5-2a89-4f1e-987e-34ea18819259")
+	)
+	(junction
+		(at 153.67 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6230d4e-c4d1-4bca-99e9-58a3c9b6b7ba")
 	)
 	(no_connect
 		(at 149.86 69.85)
@@ -1718,6 +1730,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 64.77) (xy 182.88 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2f9cf5-3edd-444e-9f5b-2f7d65909a5b")
+	)
+	(wire
+		(pts
 			(xy 137.16 93.98) (xy 139.7 93.98)
 		)
 		(stroke
@@ -1865,6 +1887,16 @@
 			(type default)
 		)
 		(uuid "66cc7d8f-8673-4d87-9478-972854928b33")
+	)
+	(wire
+		(pts
+			(xy 153.67 57.15) (xy 154.94 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f78b80-f46c-416f-8b0d-b6666e2493dc")
 	)
 	(wire
 		(pts
@@ -2118,7 +2150,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 151.13 87.63)
+			(xy 149.86 96.52) (xy 151.13 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2388,6 +2420,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 96.52) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb48ed6f-ddff-41ed-9def-3be0118e28e6")
+	)
+	(wire
+		(pts
 			(xy 124.46 15.24) (xy 130.81 15.24)
 		)
 		(stroke
@@ -2416,9 +2458,9 @@
 		)
 		(uuid "fe79d845-eef8-420c-943d-930dc808dc0a")
 	)
-	(global_label "CLKIN"
+	(global_label "VSense_CLK"
 		(shape input)
-		(at 151.13 87.63 0)
+		(at 151.13 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2428,7 +2470,7 @@
 		)
 		(uuid "03b1813f-e1f6-4a2d-a196-0ea88e602634")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.6186 87.63 0)
+			(at 165.3033 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2464,7 +2506,7 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "MOSI"
 		(shape input)
 		(at 163.83 59.69 0)
 		(fields_autoplaced yes)
@@ -2476,7 +2518,7 @@
 		)
 		(uuid "5329c62b-3385-481a-99b7-0760229cae27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.3228 59.69 0)
+			(at 171.4114 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2488,7 +2530,7 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "MISO"
 		(shape input)
 		(at 172.72 62.23 0)
 		(fields_autoplaced yes)
@@ -2500,7 +2542,7 @@
 		)
 		(uuid "723d8777-0d28-4cba-a03f-55abe4e37911")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2733 62.23 0)
+			(at 180.3014 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2533,6 +2575,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "CS"
+		(shape input)
+		(at 154.94 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7e88ed0-8928-482b-86ee-694195ebf6ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.4047 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SPI_CLK"
+		(shape input)
+		(at 182.88 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d388974a-1136-4423-a657-4d24ed434c2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.4852 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -3112,7 +3202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "NI"
 			(at 163.576 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3351,7 +3441,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "NI"
 			(at 182.88 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3590,7 +3680,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "NI"
 			(at 154.686 53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5013,7 +5103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "NI"
 			(at 172.466 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)
